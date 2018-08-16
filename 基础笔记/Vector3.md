@@ -26,13 +26,13 @@ sqrMagnitude(长度的平方Read Only)
 **Cross**:左手法则叉乘。(rightxup=forword, upxright=back)
 
 向量叉乘附加知识：
-![向量叉乘](../Resources/vector3cross.jpg)
+![向量叉乘](/Resources/vector3cross.jpg)
 向量叉乘几何意义：
 在三维几何中，向量a和向量b的叉乘结果是一个向量，该向量垂直于a和b向量构成的平面，该向量也被称作法向量
 向量叉积的和：
 将叉乘的到的向量每个分量相加，得到叉积和
 a x b = y1\*z2- y2\*z1 + z1\*x2 - x1\*z2+ x1\*y2 - y1\*x2
-![示意图](../Resources/vector3cross2.png)
+![示意图](/Resources/vector3cross2.png)
 ```
 向量叉积和的应用：
 1.判断两个向量之间的顺逆关系
