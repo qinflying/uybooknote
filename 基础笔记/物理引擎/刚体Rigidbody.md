@@ -49,6 +49,23 @@
 
 
 
+### 3.AddForce与ForceMode
+
+通过Rigidibody的AddForce使游戏对象受力，产生运动；
+
+```
+(1)ForceMode.Acceleration模式
+	持续向物体施加力，对物体的影响通过F=ma来影响加速度(忽略其他力)，该模式物体质量被视为1.
+(2)ForceMode.Force模式
+	同Accelerattion,但质量mass按实际来.
+(3)ForceMode.Impulse模式
+	对物体施加一个瞬间的力，冲量，f=mv。同时mass按实际计算.
+(4).ForceMode.VelocityChange模式
+	同Impulse,mass被视为1.
+```
+
+
+
 
 
 ### 参考
@@ -58,5 +75,3 @@
 [Collision Detection贴吧解释](http://tieba.baidu.com/p/2741418294)
 
 [Unity Rigidbody详解](https://blog.csdn.net/f786587718/article/details/49105437)
-
-[AddForce](https://www.jianshu.com/p/c49ff560a996)
